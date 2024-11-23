@@ -85,9 +85,9 @@ Each subfolder contains MRI images that serve as input for training and evaluati
 
 ## 📊 Results
 The trained model achieved the following performance metrics:
-- Training Accuracy: ~95%
-- Validation Accuracy: ~86%
-- Testing Accuracy: ~72%
+- Training Accuracy: ~100%
+- Validation Accuracy: ~76%
+- Testing Accuracy: ~73%
 
 These metrics demonstrate the model's effectiveness in distinguishing between different brain tumor types, indicating its potential utility in clinical settings.
 
