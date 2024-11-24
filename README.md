@@ -66,7 +66,7 @@ Treatment: Options include surgical removal, especially for larger tumors, medic
 
 
 ## 🔍 Project Overview 
-This project uses MRI scans, which are widely used in medical imaging due to their high resolution and clarity, especially for soft tissue differentiation. The solution employs a **Convolutional Neural Network (CNN)** to classify MRI images. The deep learning model is trained on a dataset consisting of brain MRI images labeled into four categories. The goal is to build an automated system that can assist healthcare professionals in the early diagnosis of brain tumors, potentially improving patient outcomes.
+Brain tumors pose significant challenges in diagnosis and treatment. Accurate classification is essential to developing an effective treatment strategy. MRI scans are critical in this process due to their high resolution and exceptional soft tissue differentiation. This project implements a **Convolutional Neural Network (CNN)** to classify MRI images, trained on a dataset labeled into four distinct tumor categories. The project also includes an interactive web-based application built using **Streamlit**, allowing real-time classification of MRI images through a user-friendly interface.
 
 ## 📁 Dataset
 The dataset used in this project is organized into Training and Testing folders, each containing subfolders for the four categories:
