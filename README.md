@@ -78,10 +78,19 @@ The dataset used in this project is organized into Training and Testing folders,
 Each subfolder contains MRI images that serve as input for training and evaluating the model. The images are preprocessed to ensure uniformity in size (150x150 pixels) and normalized for better performance during training.
 
 ## 🛠️ Key Features
-- **Deep Learning Architecture**: Utilizes a custom-built CNN model for image classification.
-- **Data Augmentation**: Enhances model robustness by applying transformations such as rotation, flipping, and zoom.
-- **Evaluation Metrics**: Monitors model performance using accuracy, precision, recall, and confusion matrix.
-- **Streamlit Integration**: An interactive web app for real-time MRI classification (if applicable).
+### **Deep Learning Architecture**
+- Custom **CNN architecture** for accurate multi-class image classification.
+- Robust training on a diverse dataset of brain MRI scans.
+
+### **Data Augmentation**
+- Enhances model performance by applying image transformations such as rotation, flipping, and zoom.
+
+### **Streamlit Integration**
+- Real-time tumor classification through an interactive web interface.
+- Supports image uploads in .jpg, .jpeg, or .png formats.
+
+### **Model Evaluation**
+- Monitors performance using **accuracy, precision, recall, and a confusion matrix**.
 
 ## 📊 Results
 The trained model achieved the following performance metrics:
@@ -99,7 +108,45 @@ The Convolutional Neural Network (CNN) model consists of:
 - **Fully Connected Layers**: Classifies the extracted features into the four categories.
 - **Output Layer**: Utilizes a softmax activation function for multi-class classification.
 
+## 🛠️ Technology Stack
+This project integrates a comprehensive set of tools and technologies to ensure efficient data processing, robust model performance, and an intuitive user interface:
 
+### **Frontend**
+- **Streamlit**: Delivers a user-friendly and interactive web interface for uploading and classifying MRI images.
+Backend
+- **TensorFlow/Keras**: Powers the deep learning model, enabling training and accurate inference for brain tumor classification.
+
+### **Image Processing**
+- **NumPy**: Supports numerical operations, including preprocessing MRI image data.
+- **PIL (Python Imaging Library)**: Handles image resizing, normalization, and format adjustments.
+
+### **Data Manipulation and Visualization**
+- **Pandas**: Assists in organizing and analyzing dataset-related information.
+- **Matplotlib**: Facilitates visualizations for model performance metrics, such as accuracy trends and confusion matrices.
+
+### **Model Training and Deployment**
+- **Google Colab**: Utilized for training the model using GPU resources for faster computation.
+- **Joblib**: Ensures efficient serialization and quick loading of the trained model for deployment.
+
+This stack ensures the project delivers on accuracy, scalability, and ease of use, making it a reliable tool for brain tumor classification.
+
+## 🚀 Usage
+1. **Upload an MRI Image**:
+    
+ 	Access the web app at [Brain Tumor Classification App](https://brain-tumor-classification-based-using-cnn.streamlit.app/).
+   
+2. **View Predictions**:
+	
+ 	Upload an MRI scan, and the model will classify it into one of the four categories: Glioma Tumor, Meningioma Tumor, Pituitary Tumor, or No Tumor.
+
+## 📚 References
+- MRI dataset sourced from Kaggle.
+- Research papers and articles on medical imaging and tumor classification.
+
+## 🧑‍💻 Author
+Developed by Wahyuni Mustaghfirin.
+
+For inquiries or collaborations, please contact: wahyunimustaghfirin5@gmail.com.
 
 
 
